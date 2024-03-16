@@ -68,7 +68,8 @@ button{
     margin: 2px;
 }
 
-
+               /* footer */
+  /* container */
 .container-bar{
     z-index: 999;
     position: fixed;
@@ -88,26 +89,19 @@ button{
     width: 100%;
     display: flex;
     background-color: ;
-    
+    /* container */
 }
 
-.left-icon{
-    position: relative;
-    align-items: center;
+.arrow{
+    
     display: flex;
-    width: 10%;
+    justify-content: center;
+    align-items: center;
     height: 100%;
-    
-}
-
-
-
-.center-icon{
-    width:85% ;
-    height: 100%;
+    width:10% ;
    
 }
-
+/* icone di destra */
 .close-call{
     justify-content: center;
     align-items: center;
@@ -118,6 +112,17 @@ button{
     background-color:#4A4A4A;
 }
 
+/* icone di sinistra */
+.left-icon{
+    color: white;
+    position: relative;
+    align-items: center;
+    display: flex;
+    width: 10%;
+    height: 100%;
+}
+
+/* mute */
 .mic{
     color: white;
     padding: 1.4rem;
@@ -126,20 +131,11 @@ button{
     width: 30%;
    
 }
+
 .mic i{
     font-size: xx-large;
 }
-
-.arrow{
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width:10% ;
-   
-}
-
+/* video */
 .video{
     color: white;
     padding: 1.3rem;
@@ -148,27 +144,156 @@ button{
     
 }
 
-.video i{
+.fa-video{
+    display: block;
     font-size: xx-large;
 }
+
+/* icone centrati */
+
+.center-icon{
+    justify-content: center;
+    width:85% ;
+    height: 100%;
+    display: flex;
+    color: white;
+}
+
+/* invite */
 
 .add-p{
     color: white;
     padding: 1.5rem;
-    margin-left: 25rem;
     width: 5%;
     height: 100%;
-   
-
 }
 
-.add-p i{
-    font-size: xx-large;
+.fa-user-plus{
+    padding-left: 0.3rem;
+    padding-bottom: 0.5rem;
     display: block;
+    font-size: x-large;  
+}
+/* partecipanti */
+.participants{
+   
+    color: white;
+    padding: 1.5rem 0 0 1.5rem;
+    
+    width: 11%;
+    height: 100%;
+    
 }
 
+.fa-user-group{
+    padding-left: 2.5rem;
+    padding-bottom: 0.5rem;
+    display: block;
+    font-size: x-large;
+}
 
+/* polling */
 
+.polling{
+   
+    color: white;
+    padding: 1.5rem 0 1.5rem 0;
+    width: 5%;
+    height: 100%;
+}
 
+.fa-chart-column{
+    padding-left: 0.7rem;
+    padding-bottom: 0.5rem;
+    display: block;
+    font-size: x-large; 
+}
 
+/* share screen */
 
+.share-screen{
+   
+    color: white;
+    padding: 1.5rem ;
+    width: 8%;
+    height: 100%;
+}
+
+.fa-share-from-square{
+    color: green;
+    padding-left: 1.6rem;
+    padding-bottom: 0.5rem;
+    display: block;
+    font-size: x-large; 
+}
+
+/* arrow */
+.arrow-1{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width:0.4% ;
+   
+}
+
+/* chat */
+
+.chat{
+    color: white;
+    padding: 1.5rem;
+    width: 3%;
+    height: 100%;
+}
+
+.fa-comment{
+   
+    padding-left:0.2rem;
+    padding-bottom: 0.5rem;
+    display: block;
+    font-size: x-large; 
+}
+/* record */
+.record{
+    color: white;
+    padding: 1.5rem;
+    width: 4%;
+    height: 100%;
+}
+.fa-record-vinyl{
+   
+    padding-left:0.5rem;
+    padding-bottom: 0.5rem;
+    display: block;
+    font-size: x-large; 
+}
+
+.brekout-rooms{
+    color: white;
+    padding: 1.5rem;
+    width: 9%;
+    height: 100%;
+
+}
+
+.brekout-rooms i{
+    padding-left:2rem;
+    padding-bottom: 0.5rem;
+    display: block;
+    font-size: x-large; 
+}
+
+.more{
+    color: white;
+    padding: 1.5rem 0 1.5rem 0;
+    width: 3%;
+    height: 100%;
+}
+.fa-ellipsis{
+   
+    padding-left:0.3rem;
+    padding-bottom: 0.5rem;
+    display: block;
+    font-size: x-large; 
+}
